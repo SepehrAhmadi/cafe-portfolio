@@ -1,0 +1,106 @@
+@font-face{
+  font-family: glook;
+  src: url("../../font/Gloock-Regular.ttf")
+}
+
+@font-face {
+  font-family: raleway;
+  src: url("../../font/Raleway-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: playfair;
+  src: url("../../font/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+body{
+  font-size: 16px;
+  margin: 0px;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* navbar */
+.nav-menu{
+  padding: 20px;
+  background-color: #e8eecc;
+  transition: all 0.4s;
+}
+
+.custom-navbar{
+  opacity: 0;
+}
+.menu-item{
+  font-size: 1rem;
+  color: #444;
+  transition: all 150ms ease;
+}
+
+.menu-item:hover{
+  color: #444;
+  opacity: 0.8;
+}
+
+.line1 , .line2 , .line3{
+  width: 23px;
+  height: 3px;
+  margin: 5px;
+  transition: all 250ms ease-in-out;
+}
+
+.change .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.change .line2 {
+  opacity: 0;
+}
+.change .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+/* end of navbar */
+
+/* footer */
+footer{
+  background-color: #092512c4;
+  padding: 40px 0px 40px 0px;
+  /* padding: 55px 0px 0px 0px; */
+}
+
+.email-input{
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding-left: 15px;
+  border-radius: 1px;
+  /* min-width: 200px; */
+}
+
+.email-inpu:focus{
+  background-color: black;
+}
+
+.email-input::placeholder{
+  color: white;
+}
+
+.join-btn{
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 1px;
+  color: white;
+}
+
+.email-input ,
+.join-btn{
+  margin-top: 12px;
+}
+/* end of footer */
+
+
+@media only screen and (max-width: 767px){
+  .navbar-nav{
+    text-align: center;
+  }
+}

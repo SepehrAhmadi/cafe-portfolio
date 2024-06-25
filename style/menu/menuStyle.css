@@ -1,0 +1,54 @@
+body{
+  padding-top: 75px;
+}
+
+/* title */
+.title{
+  background-color: #f6fae2;
+  padding: 60px 0px 50px 0px;
+}
+/* end of title */
+
+/* menu cards */
+  .card-menu-container{
+    position: relative;
+  }
+
+  .buy-btn{
+    transform: translateY(-50%) translateX(10%);
+    padding: 10px 60px 10px 60px;
+    border: 2px solid white;
+    border-radius: 25px;
+    transition: all 80ms ease-in;
+  }
+
+  .buy-btn:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+  }
+
+  .card-text{
+    margin-top: -20px;
+  }
+/* end of menu cards */
+
+
+@media only screen and (max-width: 900px){
+  .buy-btn{
+    padding: 10px 50px 10px 50px;
+    border: 2px solid white;
+    border-radius: 25px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .buy-btn{
+    transform: translateY(-50%) translateX(10%);
+    padding: 15px 60px 15px 60px;
+    border: 2px solid white;
+    border-radius: 25px;
+    font-size: 1.3em;
+  }
+}
+

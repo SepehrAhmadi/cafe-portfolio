@@ -1,0 +1,76 @@
+body{
+  padding-top: 75px;
+}
+
+/* main */
+/* title */
+.title{
+  background-color: #f6fae2;
+  padding: 90px 0px 75px 0px;
+}
+/* end of title */
+
+/* contact */
+  .input-sec{
+    border-right: 1px solid #444;
+    padding: 0px 120px 0px 120px;
+  }
+
+  .info-sec{
+    padding: 0px 0px 0px 120px;
+  }
+
+  .custom-input{
+    background-color: transparent;
+    border: 1px solid #444;
+    border-radius: 3px;
+    transition: border 100ms ease;
+  }
+
+  .custom-input:hover{
+    background-color: transparent;
+    border: 2px solid #444;
+    box-shadow: none;
+  }
+
+  .custom-input:focus{
+    background-color: transparent;
+    border: 2px solid #444;
+    box-shadow: none;
+  }
+
+  .custom-btn{
+    background-color: #092512c4;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 3px;
+  }
+
+  .custom-btn:hover{
+    background-color: white;
+  }
+
+
+/* end of contact */
+/* end of main */
+
+@media only screen and (max-width: 1200px){
+  .input-sec{
+    padding: 0px 60px 0px 60px;
+  }
+  .info-sec{
+    padding: 0px 60px 0px 60px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .input-sec{
+    border-right: none;
+    padding: 0px 25px 50px 25px;
+  }
+  .info-sec{
+    padding: 0px 25px 0px 25px;
+    text-align: center;
+  }
+}
+

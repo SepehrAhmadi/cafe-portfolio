@@ -1,0 +1,23 @@
+body{
+  padding-top: 75px;
+}
+
+/* title */
+.title{
+  background-color: #f6fae2;
+  padding: 90px 0px 75px 0px;
+}
+/* end of title */
+
+/* features */
+.features a{
+  border-radius: 0px;
+  border: 2px solid;
+  padding: 12px 40px; 
+  transition: all 100ms ease-in;
+}
+
+.features a:hover{
+  background-color: #666;
+}
+/* end of features */
